@@ -4,15 +4,16 @@ import AddNewItem from './components/AddNewItem.vue';
 </script>
 
 <template>
-  <header>
-    <div>
-      <!-- <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav> -->
-      <AddNewItem />
-    </div>
-  </header>
+  <!-- <header> -->
+  <div>
+    <!-- <nav>
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/login">Login</RouterLink>
+    </nav> -->
+    <AddNewItem />
+  </div>
+  <!-- </header> -->
   <!-- eslint-disable-next-line vue/no-multiple-template-root -->
   <RouterView />
 
@@ -21,8 +22,8 @@ import AddNewItem from './components/AddNewItem.vue';
 <style scoped>
 header {
   line-height: 1.5;
-  max-height: 100vh;
-  margin-right: 3rem;
+  max-height: 50vh;
+  margin-left: 2rem;
 }
 
 .logo {

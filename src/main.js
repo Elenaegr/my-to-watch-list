@@ -18,6 +18,7 @@ import ToastService from "primevue/toastservice";
 import OrderList from "primevue/orderlist";
 import DataView from "primevue/dataview";
 import DataViewLayoutOptions from "primevue/dataviewlayoutoptions";
+import Panel from "primevue/panel";
 
 import { createApp } from "vue";
 import { createPinia } from "pinia";
@@ -48,5 +49,6 @@ app.component("Toast", Toast);
 app.component("OrderList", OrderList);
 app.component("DataView", DataView);
 app.component("DataViewLayoutOptions", DataViewLayoutOptions);
+app.component("Panel", Panel);
 
 app.mount("#app");

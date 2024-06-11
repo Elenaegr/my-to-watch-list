@@ -45,13 +45,9 @@ const genres = ref([
     </div>
   </div>
   <h3>Pending media to watch (13)</h3>
-  <CardComponent></CardComponent>
-  <CardComponent></CardComponent>
+  <OrderToWatch></OrderToWatch>
   <!-- eslint-disable vue/no-multiple-template-root -->
-  <CardComponent></CardComponent>
   <h3>Already watched (2)</h3>
-  <CardComponent style="text-decoration: line-through;"></CardComponent>
-  <CardComponent style="text-decoration: line-through;"></CardComponent>
   <OrderToWatch></OrderToWatch>
 </template>
 
